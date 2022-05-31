@@ -188,6 +188,7 @@ nav ul a svg {
 .curriculum .container {
   display: flex;
   margin: 50px 0;
+  max-width: 1200px;
 }
 
 .curriculum .container .content {
@@ -201,7 +202,7 @@ nav ul a svg {
 
 .curriculum .container .content .curriculum-info {
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: 100px auto;
   grid-gap: 1rem;
   margin-bottom: 50px;
 }
@@ -213,58 +214,58 @@ nav ul a svg {
   header .container {
     width: 100%;
   }
+}
 
-  nav ul a {
-    font-size: 18px;
-  }
+nav ul a {
+  font-size: 18px;
+}
 
-  nav {
-    padding: 0 40px;
-  }
+nav {
+  padding: 0 40px;
+}
 
-  .about-me {
-    flex-direction: column;
-  }
+.about-me {
+  flex-direction: column;
+}
 
-  .about-me .container,
-  .about-me .img-container {
-    width: 100%;
-  }
+.about-me .container,
+.about-me .img-container {
+  width: 100%;
+}
 
-  .about-me .container {
-    padding-right: 0;
-  }
+.about-me .container {
+  padding-right: 0;
+}
 
-  .about-me .img-container {
-    margin: 70px 0;
-  }
+.about-me .img-container {
+  margin: 70px 0;
+}
 
-  .services,
-  .portfolio {
-    padding: 0;
-  }
+.services,
+.portfolio {
+  padding: 0;
+}
 
-  .services .services-container,
-  .portfolio .portfolio-container {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.services .services-container,
+.portfolio .portfolio-container {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .service-card {
-    height: 394px;
-  }
+.service-card {
+  height: 394px;
+}
 
-  .service-card + .service-card,
-  .portfolio-card + .portfolio-card {
-    margin-left: 0px;
-    margin-top: 30px;
-  }
+.service-card + .service-card,
+.portfolio-card + .portfolio-card {
+  margin-left: 0px;
+  margin-top: 30px;
+}
 
-  .portfolio {
-    height: 100%;
-  }
+.portfolio {
+  height: 100%;
 }
 
 .services {
@@ -383,8 +384,15 @@ nav ul a svg {
   margin-top: 10px;
 }
 
-p {
-  margin: 0;
+.curriculum .container {
+  flex-wrap: wrap;
+}
+
+.curriculo .container .curriculo-img {
+  display: block;
+  margin: 0 auto 50px;
+  width: 100%;
+  max-width: 520px;
 }
 
 /* tablet */
